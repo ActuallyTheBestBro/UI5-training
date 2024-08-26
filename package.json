@@ -1,0 +1,13 @@
+{
+    "name": "ui5.first.app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Lakshmi",
+    "license": "ISC",
+    "description": "My First UI5 Application"
+}

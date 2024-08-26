@@ -1,0 +1,29 @@
+<!-- <View xmlns="sap.ui.core.mvc"> -->
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ui5.first.app.controller.main">
+<Table id="MyTable" items="{/studentsData}">
+<columns>
+        <Column>
+            <Text text="{i18nResource>studentName}" />
+        </Column>
+        <Column>
+            <Text text="Student Age" />
+        </Column>
+    </columns>
+<items>
+<ColumnListItem>
+    <cells>
+        <Text text="{/studentsData/name}"/>
+        <Input value="{/studentsData/age}"/>
+    </cells>
+</ColumnListItem>
+<ColumnListItem>
+    <cells>
+        <Text text="{name}"/>
+        <Input value="{age}"/>
+    </cells>
+</ColumnListItem>
+</items>
+</Table>
+<Text text="{/studentsData/0/name}"/>
+    <Button id="acceptButton" text="{/studentsData/0/name}" type="Accept" press="onButtonPress"> </Button>
+</mvc:View>

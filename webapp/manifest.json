@@ -1,0 +1,8 @@
+{
+    "_version": "1.0.0",
+    "sap.app": {
+        "id":"ui5.first.app",
+        "title":"My First UI5 Application",
+        "type": "application"
+    }
+}
